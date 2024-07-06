@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+    font-family: "Playwrite IT Moderna", cursive;
+}
+body{
+    background: url(./bg12.jpeg) no-repeat;
+}
+.div1{
+    min-width: 50%;
+    max-width: 60%;
+    position: absolute;
+    right:10px;
+    top: 70px;
+}
+.title{
+    font-size:45px ;
+}
+.title:hover{
+    transform: scaleX(1.1);
+    transition: 0.3s;
+}
+.slid2{
+    position: absolute;
+    right:900px;
+    top:150px;
+    width: 300px;
+}
+.slid2:hover{
+     transform:scale(1.11);
+     transition: 0.5s;
+}
+.repeat{
+    position: absolute;
+    right: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    top: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.repeat:hover{
+   transform: scaleX(1.2);
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
